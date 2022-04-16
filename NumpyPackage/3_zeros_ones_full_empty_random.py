@@ -1,13 +1,12 @@
 """
-Using these methods, we can create arrays with filled elements. As such, we can also use full, empty and random
-to create an array.
+Using these methods, we can create arrays with filled elements. As such, we can also use full, empty and random to create an array.
 
 We can also use linspace to create an array of linear elements.
 """
 import numpy as np
 
 # Create an array and fill it with a particular value
-arr = np.full([3, 1], 5.0)	
+arr = np.full([3, 1], 5.0)
 
 arr1 = np.empty([2, 3], np.float64)
 

@@ -8,8 +8,7 @@ Numpy is a module for working with multi-dimensional arrays. To create a basic a
 	-	In NumPy dimensions are called axes. The number of axes is rank.
 	-	NumPy’s array class is called ndarray. It is also known by the alias array.
 
-Notice that array is used for directly creating an array from a list, whereas ndarray for creating an array from
-a set of properties.
+Notice that array is used for directly creating an array from a list, whereas ndarray for creating an array from a set of properties.
 
 Note that a 1 dimensional array has exactly one dimension, and as such that axis is zero. As we move forward,
 the dimensions increase starting from column.
@@ -21,11 +20,9 @@ number of columns.
 import numpy as np
 
 # First array I've created after two and a half years.
-arr = np.ndarray(shape=[3,2], dtype=float)
+arr = np.ndarray(shape=[3, 2], dtype=float)
 print(arr)
 
 # From default values. Notice that array is a function that returns an ndarray
 arr2 = np.array([[1, 2, 3], [4, 5, 6]])
 print(arr2)
-
-
